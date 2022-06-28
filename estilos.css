@@ -1,0 +1,22 @@
+.contenedor{
+    display: flex;
+}
+
+
+
+
+.azul{
+    background-color: blue;
+    max-width:20%;
+    height: 20%;
+
+}
+
+.verde{
+    background-color: aquamarine;
+
+}
+
+.morado{
+    background-color: darkviolet;
+}
