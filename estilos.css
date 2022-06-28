@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+}
+
+
+
+
 .contenedor{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 
@@ -7,16 +16,18 @@
 
 .azul{
     background-color: blue;
-    max-width:20%;
-    height: 20%;
+    width: calc((100% / 3 ) - 30px);
+    height:20%;
 
 }
 
 .verde{
     background-color: aquamarine;
+    width:calc((100% / 3 ) - 30px);
 
 }
 
 .morado{
     background-color: darkviolet;
+    width:calc((100% / 3 ) - 30px);
 }
